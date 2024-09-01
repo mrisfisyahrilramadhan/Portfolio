@@ -17,6 +17,7 @@ function onFromSubmit(e) {
     const email = $("#inp_email")
     const subject = $("#inp_subject")
     const message = $("#inp_message")
+}
 
     if(!$(email).val()) {
         alert("Email is required")
